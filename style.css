@@ -1,0 +1,30 @@
+body{
+    margin: 0;
+    background-color: white;
+    font-family: 'DM Sans', sans-serif;
+}
+
+.topbar{
+    display: flex;
+    align-items: center;
+    gap: 16px;
+}
+
+.settings-page, .logout-page{
+    margin: 5;
+}
+
+.logout-page{
+    color: #1da1cd;
+    border-color: #b5b7b8;
+    margin: 0%;
+}
+
+.settings-page{
+    color: #8f8c8c;
+    border-color: #8f8c8c;
+}
+.settings-page:hover{
+    color: #605e5e;
+    border-color: #605e5e;
+}
